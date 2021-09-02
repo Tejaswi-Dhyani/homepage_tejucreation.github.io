@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Acme', sans-serif;
+	box-sizing:border-box; 
+}
+.bgimage{
+	background: url(tt.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.menu{
+	width: 100%;
+	background: rgb(0,0,0,0.6);
+	height: 130px;
+}
+.menu .leftmenu{
+	float: left;
+	width:25%;
+	}
+.menu .rightmenu{
+	width: 60%;
+	float: right;
+
+	
+}
+.menu .leftmenu h4{
+line-height: 130px;
+font-size: 33px;
+margin-left: 50px;
+color: #fff;
+text-shadow:2px 2px 8px #ff0000;
+}
+.menu .rightmenu ul li{
+	display: inline-block;
+	line-height: 110px;
+	color:  #fff;
+	font-weight: bold;
+	padding: 15px;
+	margin-left: 20px;
+}
+ #first{
+ 	color: orange;
+	}
+	.content{
+		height: auto;
+        width: 50%;
+        margin:  0 auto;
+		text-align: center;
+		color: #fff;
+		}
+		.content h3{
+			margin-top: 200px;
+			padding-bottom: 20px;
+		}
+.content h1{
+			
+			padding-bottom: 20px;
+			letter-spacing: 1px;
+			font-weight: bolder;
+			font-size: 40px;
+		}
+		.content h4{
+			
+			padding-bottom: 20px;
+		}
+		#btn1{
+			font-weight:bold; 
+			font-size:15px;
+			border: none;
+			outline: none;
+			background-color: white;
+			padding: 15px;
+            }
+            #btn1:hover{
+            border: 2px solid white;
+			background-color: gray;
+			padding: 14px;	
+            }
+		#btn2{
+			font-weight:bold; 
+			font-size:15px;
+			border: 2px solid white;
+			background-color: gray;
+			padding: 14px;
+
+		}
+		#btn2:hover{
+            border: none;
+			outline: none;
+			background-color: white;
+			padding: 15px;
+		}
+
+
